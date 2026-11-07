@@ -82,7 +82,7 @@ class StyledApp(QMainWindow):
         self.button = QPushButton("Click Me")
         self.button.clicked.connect(self.on_click)
 
-        # Theme toggle mmmm
+        # Theme toggle mambo
         self.theme_btn = QPushButton("Switch to Dark Theme")
         self.theme_btn.clicked.connect(self.toggle_theme)
 
